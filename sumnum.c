@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main()
 {
-    int n1, n2, Sum;
+    int n1, n2, SumOne;
 
     printf("Enter two integers: ");
 
@@ -9,15 +9,15 @@ int main()
     scanf("%d %d", &n1, &n2);
 
     // store sum in variable Sum
-    Sum = n1 + n2;
+    SumOne = n1 + n2;
 
     // display output
-    printf("%d + %d = %d", n1, n2, Sum);
+    printf("%d + %d = %d", n1, n2, SumOne);
 
     // check if the sum is even or odd,
     // and print result to screen
-    if(Sum % 2 == 0) printf("%d is even\n", Sum);
-    else printf("%d is odd\n", Sum);
+    if(SumOne % 2 == 0) printf("%d is even\n", SumOne);
+    else printf("%d is odd\n", SumOne);
 
     return 0;
 }
